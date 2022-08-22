@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600&display=swap');
+:root {
+  --primary: #00A7E1;
+  --secondary: #007EA7;
+  --tertiary: #003459;
+  --dark: #00171F;
+  --white: #FFFFFF;
+  --black: #000000;
+  --red: #F25C54;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+html {
+ font-family: 'Comfortaa', cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+.input {
+  margin: 5px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 25px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+@media(max-width:768px){
+  button {
+    font-size: 16px;
+  }
+}
