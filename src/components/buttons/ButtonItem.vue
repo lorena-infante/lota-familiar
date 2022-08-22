@@ -49,7 +49,12 @@ export default {
   border-radius: 12px;
 }
 
-.square:hover, .selectedClass {
+.square:hover {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.selectedClass {
   cursor: pointer;
   padding: 20px;
   margin: 3px;
