@@ -46,7 +46,7 @@ button {
   }
 }
 
-@media(min-width:1920px){
+@media(min-width:1220px){
   button {
     font-size: 70px;
   }
