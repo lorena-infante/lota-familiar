@@ -45,3 +45,9 @@ button {
     font-size: 16px;
   }
 }
+
+@media(min-width:1920px){
+  button {
+    font-size: 70px;
+  }
+}
